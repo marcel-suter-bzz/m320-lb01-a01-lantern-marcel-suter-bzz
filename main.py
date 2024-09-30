@@ -1,12 +1,9 @@
-def calculate():
-    """
-    calculates the total
-    :return: None
-    """
-    price = 14.75
-    quantity = 3  # TODO change quantity to 5
-    print(f'Total: {price * quantity}')
+""" the main module so pylint won't complain """
+
+def main():
+    """ the main of all mains """
+    print('Pylint is happy')
 
 
 if __name__ == '__main__':
-    calculate()
+    main()
