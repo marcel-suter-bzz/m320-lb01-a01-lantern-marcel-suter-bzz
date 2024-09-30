@@ -11,7 +11,7 @@ permissions:
 jobs:
   copyfiles:
     permissions: write-all
-    if: ${{ github.repository.owner != 'templates-python' }}
+    if: ${{ github.repository_owner != 'templates-python' }}
     uses: BZZ-Commons/set-testdata/.github/workflows/copyfiles.yml@master
     secrets: inherit
 
